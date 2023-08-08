@@ -1,0 +1,18 @@
+extends:
+  - recommended
+
+rules:
+  no-unused-components: error
+
+theme:
+  openapi:
+    disableSearch: true
+    expandResponses: true
+    nativeScrollbars: true
+    requiredPropsFirst: true
+    showWebhookVerb: true
+    hideSecuritySection: true
+    theme:
+      colors:
+        primary:
+          main: '#32329f'

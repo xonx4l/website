@@ -230,6 +230,18 @@ module.exports = {
         },
       },
     ],
+
+    [
+      'redocusaurus',
+      {
+        specs: [
+          {
+            spec: 'https://raw.githubusercontent.com/boxyhq/jackson/main/swagger/swagger.json',
+            route: '/api',
+          },
+        ],
+      },
+    ],
   ],
   plugins: [
     [
